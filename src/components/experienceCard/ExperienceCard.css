@@ -1,13 +1,13 @@
 .experience-card {
     position: relative;
     background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+    box-shadow:#009cda 0px 10px 30px -15px;
     border-radius: 10px;
-    border: 1px solid rgba(211, 211, 211, 0.397);
+    border: 1px solid rgba(252, 209, 1, 0.8);
 }
 
 .experience-card:hover {
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+    box-shadow:#e71d08 0px 20px 30px -10px;
 }
 
 .experience-banner {

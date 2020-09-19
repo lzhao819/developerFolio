@@ -6,15 +6,16 @@
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #55198b;
+  background-color:#009cda;
   color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 15px;
+  cursor: url(../../assets/images/cursor-click.png),pointer;
+  padding: 10px;
+  border-radius: 10px;
   font-size: 25px;
 }
 
 #topButton:hover {
-  background-color: #000;
+  background-color:	#fcd101;
+  /* #e71d08 */
   transition: all ease-in-out 0.2s;
 }

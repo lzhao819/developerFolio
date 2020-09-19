@@ -1,6 +1,6 @@
 .main-button {
-  background-color: #55198b;
-  border: solid 1px #55198b;
+  background-color: #009cda;
+  border: solid 1px #009cda;
   color: white;
   font-weight: 700;
   width: max-content;
@@ -13,12 +13,12 @@
   display: block;
   margin-top: 20px;
   font-size: 16px;
-  cursor: pointer;
+  cursor: url(../../assets/images/cursor-click.png),pointer;
   transition: all .3s ease-in-out 0s;
 }
 .main-button:hover {
   background-color: #ffffff;
-  color: #55198b;
+  color: #009cda;
   transition: all .3s ease 0s;
   transform: translateY(-3px);
 }

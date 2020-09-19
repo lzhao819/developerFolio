@@ -1,10 +1,12 @@
 /* header */
 
 .header {
-  background-color: #fff;
+  /* background-image: url(../../assets/images/caveBG.png); */
+  background: #009cda;
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
+  cursor: url(../../assets/images/cursor.png),auto;
 }
 
 .header ul {
@@ -14,22 +16,25 @@
   overflow: hidden;
 }
 .grey-color {
-  color: #868e96;
+  color: #e71d08
+  /* #868e96; */
 }
 
 .header li a {
   display: block;
   padding: 20px 20px;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  background-color:  #e71d08;
+  cursor: url(../../assets/images/cursor-click.png),pointer;
 }
 
 .header .logo {
+  cursor: url(../../assets/images/cursor-click.png),pointer;
   display: block;
   flex: none;
   float: left;
@@ -39,7 +44,8 @@
   line-height: normal;
 }
 .header .logo-name {
-  font-family: "Agustina Regular";
+  font-family: "Orbitron";
+  color: white;
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
@@ -57,7 +63,7 @@
 /* menu icon */
 
 .header .menu-icon {
-  cursor: pointer;
+  cursor: url(../../assets/images/cursor-click.png),pointer;
   display: inline-block;
   float: right;
   padding: 28px 20px;

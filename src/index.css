@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
 @font-face {
   font-family: 'Agustina Regular';
   font-style: normal;
@@ -17,10 +19,14 @@ code {
 html,
 body {
   scroll-behavior: smooth;
+  cursor: url(assets/images/cursor.png),auto;
+  /* background-image: url(assets/images/sea.png); */
+  background-color: #009cda;
 }
 body {
   margin: 0;
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  font-family: 'Orbitron', sans-serif;
+  /* font:  Montserrat, "Montserrat", sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

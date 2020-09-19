@@ -8,15 +8,19 @@
 .skills-main-div > * {
   flex: 1;
   margin-bottom: 30px;
+  /* background-image: url(../../assets/images/legoWhite.jpg); */
+  background-color:  #fcd101;;
 }
 
 .skills-image-div > img {
   max-width: 100%;
   height: auto;
+  
 }
 
 .skills-heading {
-  font-size: 56px;
+  padding: 1rem;
+  font-size: 56x;
   font-weight: 400;
 }
 
@@ -41,9 +45,11 @@
   .skills-text-div {
     margin-left: 0px;
     margin: 20px;
+    background-color: #fcd101;
   }
   .skills-text {
     font-size: 16px;
+    
   }
   .skills-text-subtitle {
     font-size: 16px;
