@@ -22,6 +22,9 @@ function Header() {
             <a href="#skills">Skills</a>
           </li>
           <li>
+            <a href="#opensource">Open Source</a>
+          </li>
+          <li>
             <a href="#projects">Projects</a>
           </li>
           { exp === true &&

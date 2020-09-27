@@ -8,8 +8,8 @@
 .skills-main-div > * {
   flex: 1;
   margin-bottom: 30px;
-  /* background-image: url(../../assets/images/legoWhite.jpg); */
-  background-color:  #fcd101;;
+  /* background-image: url(../../assets/images/road.png); */
+  background-color: #f5f5f5;;
 }
 
 .skills-image-div > img {

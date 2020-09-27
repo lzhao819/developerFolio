@@ -32,7 +32,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Tech Stack",
-  subTitle: "I WANT TO EXPLORE EVERY TECH STACK",
+  subTitle: "   I WANT TO EXPLORE EVERY TECH STACK",
   skills: [
     // emoji("⚡ Develop highly interactive Front end / User Interfaces for your web applications"),
     // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
@@ -46,6 +46,18 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "java",
       fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "unity",
+      fontAwesomeClassname: "fab fa-unity"
     },
     {
       skillName: "html-5",
@@ -64,14 +76,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
@@ -82,10 +86,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ]
 };
@@ -159,22 +159,22 @@ To know how to get github key look at readme.md */
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "lzhao819", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"false" // Set true or false to show Contact profile using Github, defaults to false 
+  showGithubProfile : "true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
 
 // Some Big Projects You have worked with your company
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "My Projects",
+  subtitle: "SOME INTERESTING PROJECTS I'VE BEEN WORKING ON",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/homeseeker.jpeg"),
+      link: "https://boiling-shelf-28043.herokuapp.com/"
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      image: require("./assets/images/facedetector.png"),
+      link: "https://lzhao819.github.io/FaceDetector/"
     }
   ]
 };
